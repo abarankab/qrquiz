@@ -1,0 +1,5 @@
+certifi==2018.4.16
+future==0.16.0
+PyQRCode==1.2.1
+python-telegram-bot==10.1.0
+qrtools==0.0.2
