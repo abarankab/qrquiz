@@ -52,7 +52,7 @@ class Question:
 
         for ans in self.answers:
             c.execute("INSERT INTO answers (for_id, answer) VALUES (?,?)",
-                      (len(questions)-1, ans))
+                      (len(questions), ans))
 
         db.commit()
         c.close()
